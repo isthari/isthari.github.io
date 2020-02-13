@@ -1,9 +1,12 @@
+# main links
 main:
-  - title: "Quick start"
-    url: /quick-start/
-  - title: "Data integration"
-    url: /data-integration/
-  - title: "User guide"
-    url: /user
-  - title: "Admin guide"
-    url: /admin
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
