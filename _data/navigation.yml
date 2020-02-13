@@ -21,11 +21,11 @@ foo:
 
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/introduction
+  - title: "Quick Start Guide"
+    url: /quick_start_guide/introduction
 
-  - title: "About"
-    url: /about/
+  - title: "User guide"
+    url: /user_guide/introduction
 
   - title: "Sample Posts"
     url: /year-archive/
@@ -38,14 +38,25 @@ main:
 
 
 # documentation links
-docs:
+quick_start_guide:
   - title: Contents 
     children:
       - title: "Introduction"
-        url: /docs/quick-start-guide/introduction
+        url: /quick_start_guide/introduction
       - title: "Data ingestion"
-        url: /docs/quick-start-guide/data-ingestion
+        url: /quick_start_guide/data-ingestion
       - title: "Notebook"
-        url: /docs/quick-start-guide/notebook
+        url: /quick_start_guide/notebook
       - title: "Business Intelligence"
-        url: /docs/quick-start-guide/business-intelligence-integration
+        url: /quick_start_guide/business-intelligence-integration
+
+user_guide:
+  - title: Contents
+    children:
+      - title: "wtf"
+        url: "#"
+  
+  - title: "Business Intelligence"
+    children:
+      - title: "Tableau"
+        url: "/user_guide/tableau"

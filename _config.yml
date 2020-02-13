@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Isthari SaaS"
 title_separator          : "-"
-name                     : &name "Isthari"
+name                     : &name "Michael Rose"
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://doc.isthari.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -112,7 +112,8 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - _quick_start_guide
+  - _user_guide
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -165,11 +166,14 @@ kramdown:
 
 
 # Collections
-collections:
-  docs:
+collections: 
+  quick_start_guide:
     output: true
     permalink: /:collection/:path/
-  recipes:
+  user_guide:
+    output: true
+    permalink: /:collection/:path/
+  docs:
     output: true
     permalink: /:collection/:path/
   pets:
@@ -182,28 +186,19 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  # _user_guide
   - scope:
       path: ""
-      type: posts
+      type: user_guide
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
+      author_profile: false
+      sidebar:
+        nav: "user_guide"
+  # _quick-start-guide
   - scope:
       path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _docs
-  - scope:
-      path: ""
-      type: docs
+      type: "quick_start_guide"
     values:
       layout: single
       read_time: false
@@ -211,33 +206,7 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
-  # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _pets
-  - scope:
-      path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
+        nav: "quick_start_guide"
 
 
 # Sass/SCSS
