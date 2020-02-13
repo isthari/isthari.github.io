@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Quick start"
+    url: /quick-start/
+  - title: "Data integration"
+    url: /data-integration/
+  - title: "User guide"
+    url: /user
+  - title: "Admin guide"
+    url: /admin
