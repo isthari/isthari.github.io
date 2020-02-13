@@ -113,6 +113,7 @@ author:
 include:
   - .htaccess
   - _quick_start_guide
+  - _pages
   - _user_guide
 exclude:
   - "*.sublime-project"
