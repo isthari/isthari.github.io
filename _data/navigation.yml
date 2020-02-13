@@ -27,15 +27,22 @@ main:
   - title: "User guide"
     url: /user_guide/introduction
 
-  - title: "Sample Posts"
-    url: /year-archive/
+  - title: "Admin guide"
+    url: /admin_guide/introduction
 
-  - title: "Sample Collections"
-    url: /collection-archive/
 
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
-
+# admin guide links
+admin_guide:
+  - title: Contents 
+    children:
+      - title: "Introduction"
+        url: /admin_guide/introduction
+      - title: "Deploy in AWS"
+        url: /admin_guide/deploy_aws
+      - title: "Deploy in Azure"
+        url: /admin_guide/deploy_azure
+      - title: "Deploy in GCP"
+        url: /admin_guide/deploy_gcp
 
 # documentation links
 quick_start_guide:
@@ -53,7 +60,7 @@ quick_start_guide:
 user_guide:
   - title: Contents
     children:
-      - title: "wtf"
+      - title: "Introduction"
         url: "#"
   
   - title: "Business Intelligence"
