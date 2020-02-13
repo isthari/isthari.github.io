@@ -60,3 +60,7 @@ user_guide:
     children:
       - title: "Tableau"
         url: "/user_guide/tableau"
+      - title: "Microstrategy"
+        url: "/user_guide/microstrategy"
+      - title: "QlikSense"
+        url: "/user_guide/qliksense"
