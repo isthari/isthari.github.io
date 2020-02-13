@@ -39,12 +39,12 @@ main:
 
 # documentation links
 docs:
-  - title: Getting Started
+  - title: Contents 
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
+      - title: "Introduction"
+        url: /docs/quick-start-guide/introduction
+      - title: "Data ingestion"
+        url: /docs/quick-start-guide/data-ingestion
       - title: "Installation"
         url: /docs/installation/
       - title: "Upgrading"
