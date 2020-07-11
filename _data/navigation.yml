@@ -37,12 +37,23 @@ admin_guide:
     children:
       - title: "Introduction"
         url: /admin_guide/introduction
-      - title: "Deploy in AWS"
+  - title: "Deploy in AWS"
+    children:
+      - title: "Fully managed"
+        url: /admin_guide/deploy_aws_fully_managed
+      - title: "Cloudformation"
         url: /admin_guide/deploy_aws
-      - title: "Deploy in Azure"
+  - title: "Deploy in Azure"
+    children:
+      - title: "Fully managed"
         url: /admin_guide/deploy_azure
-      - title: "Deploy in GCP"
+      - title: "ARM"
+        url: #
+  - title: "Deploy in GCP"
+    children:
+      - title: "Fully managed"
         url: /admin_guide/deploy_gcp
+      - title: "Deployment manager"
 
 # documentation links
 quick_start_guide:
