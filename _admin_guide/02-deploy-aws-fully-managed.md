@@ -19,7 +19,7 @@ In the upper right corner, click on "Create Stack" and later in "With new resour
 
 ![](02-deploy-aws-fully-managed-create-stack.png) 
 
-Copy the url of the Cloud Formation template in the field Amazon S3 URL [https://isthari-templates.s3.amazonaws.com/isthari-remote-admin-template-v1.0.txt](https://isthari-templates.s3.amazonaws.com/isthari-remote-admin-template-v1.0.txt)
+Copy the url of the Cloud Formation template in the field Amazon S3 URL [https://isthari-files.s3.amazonaws.com/isthari-remote-admin-template-v1.0.txt](https://isthari-templates.s3.amazonaws.com/isthari-remote-admin-template-v1.0.txt)
 
 Then click on Next button
 
