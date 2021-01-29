@@ -37,23 +37,18 @@ admin_guide:
     children:
       - title: "Introduction"
         url: /admin_guide/introduction
-  - title: "Deploy in AWS"
+  - title: "Deploy Region"
     children:
-      - title: "Fully managed"
-        url: /admin_guide/deploy_aws_fully_managed
-      - title: "Cloudformation"
+      - title: "AWS Terraform"
         url: /admin_guide/deploy_aws
-  - title: "Deploy in Azure"
+  - title: "Clusters"
     children:
-      - title: "Fully managed"
-        url: /admin_guide/deploy_azure
-      - title: "ARM"
-        url: #
-  - title: "Deploy in GCP"
-    children:
-      - title: "Fully managed"
-        url: /admin_guide/deploy_gcp
-      - title: "Deployment manager"
+      - title: "Intro"
+        url: /admin_guide/clusters-intro
+      - title: "Define"
+        url: /admin_guide/clusters-define
+      - title: "Presto SQL"
+        url: /admin_guide/clusters-presto
 
 # documentation links
 quick_start_guide:
@@ -73,7 +68,10 @@ user_guide:
     children:
       - title: "Introduction"
         url: "#"
-  
+  - title: Connectivity
+    children:
+      - title: "Spark SQL ODBC"
+        url: "/user_guide/spark-sql-odbc" 
   - title: "Business Intelligence"
     children:
       - title: "Tableau"
